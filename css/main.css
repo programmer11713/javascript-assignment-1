@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+* {
+  font-family: monospace;
+  color: rgb(0, 255, 0);
+}
+
+::selection {
+  background: rgb(0, 255, 0);
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+
+h1 {
+  font-size: 3rem;
+  text-decoration: underline;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.25rem 0.75rem;
+  background: black;
+  border: 1px solid rgb(0, 255, 0);
+  outline: none;
+  font-size: 1.5rem;
+  border-radius: 1px;
+  margin: 2rem 1rem 0rem 1rem;
+  transition: all 0.25s;
+}
+
+button:hover {
+  background: rgb(0, 255, 0);
+  color: black;
+}
